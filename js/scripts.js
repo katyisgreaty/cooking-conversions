@@ -4,7 +4,7 @@ var tblspn = function (number) {
   return number*16;
 };
 
-var ounce = function (number) {
+var oz = function (number) {
   return number*8;
 };
 
@@ -25,6 +25,27 @@ $(document).ready(function() {
    $("p.one").show();
    $(".tblspn").text(result);
    event1.preventDefault();
+ });
+ $("form#oz").submit(function(event2) {
+   var number = parseFloat($("#num2").val());
+   var result = oz(number);
+   $("p.two").show();
+   $(".oz").text(result);
+   event2.preventDefault();
+ });
+ $("form#mili").submit(function(event3) {
+   var number = parseFloat($("#num3").val());
+   var result = mili(number);
+   $("p.three").show();
+   $(".mili").text(result);
+   event3.preventDefault();
+ });
+ $("form#pound").submit(function(event4) {
+   var number = parseFloat($("#num4").val());
+   var result = pound(number);
+   $("p.four").show();
+   $(".pound").text(result);
+   event4.preventDefault();
  });
 
 });

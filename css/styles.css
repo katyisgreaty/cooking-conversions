@@ -1,3 +1,8 @@
 p {
   display: none;
 }
+
+.jumbotron {
+  text-align: center;
+  font-size: 50px;
+}
