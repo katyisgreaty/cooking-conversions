@@ -1,7 +1,5 @@
 # cooking-conversions
 
-# pet-website
-
 #### By _**Katy Daviscourt and Minh Phuong,** 1.11.17_
 
 ## Description
